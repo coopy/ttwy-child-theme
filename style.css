@@ -9,7 +9,7 @@ Template:       oleander
 
 @font-face{
   font-family: 'Witch-Baby-Regular';
-  src: url('../fonts/Witch-Baby-Regular.otf') format('opentype');
+  src: url('./fonts/Witch-Baby-Regular.otf') format('opentype');
 }
 
 h1, h2, h3, h4, h5, h6 {
