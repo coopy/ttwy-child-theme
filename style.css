@@ -1,7 +1,7 @@
 /*
 Theme Name:     TreetrunkwiseTheme
 Description:    Child theme of Oleander for Treetrunkwise
-Author:         TTWadminAsh
+Author:         Per
 Template:       oleander
 
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
@@ -9,9 +9,9 @@ Template:       oleander
 
 @font-face{
   font-family: 'Witch-Baby-Regular';
-  src: url('../fonts/Witch-Baby-Regular.otf');
+  src: url('../fonts/Witch-Baby-Regular.otf') format('opentype');
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Witch-Baby-Regular, sans-serif;
+  font-family: Witch-Baby-Regular, sans-serif;
 }
