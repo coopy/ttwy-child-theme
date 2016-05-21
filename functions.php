@@ -21,3 +21,14 @@ function theme_enqueue_styles() {
 //
 // Your code goes below
 //
+if ( function_exists('register_sidebar') )
+  register_sidebar(array(
+    'name' => 'MailChimp Footer',
+    'id' => 'sidebar-6',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '',
+    'after_title' => '',
+    'description' => 'Add the MailChimp for WordPress Custom widget here'
+  )
+);
