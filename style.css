@@ -8,23 +8,28 @@ Template:       oleander
 */
 
 @font-face{
-  font-family: 'Witch-Baby-Regular';
-  src: url('./fonts/Witch-Baby-Regular.otf') format('opentype');
+    font-family: 'Witch-Baby-Regular';
+    src: url('./fonts/Witch-Baby-Regular.otf') format('opentype');
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Witch-Baby-Regular, sans-serif;
-  text-transform: uppercase;
+    font-family: Witch-Baby-Regular, sans-serif;
+    text-transform: uppercase;
 }
 
 #top-search input, .feat-overlay p, .promo-overlay h4, .archive-box span, .subscribe-inner p, .post-entry blockquote p, .entry-content blockquote p, span.by, .comment-box, .widget-title,
 .author-content h5 .about-italic {
-	font-family: Witch-Baby-Regular, sans-serif;
-  text-transform: uppercase;
+    font-family: Witch-Baby-Regular, sans-serif;
+    text-transform: uppercase;
+}
+
+#nav-wrapper .menu li a {
+    font-size: 15px;
 }
 
 
-
-#nav-wrapper .menu li a {
-  font-size: 15px;
+.featured-area .feat-inner {
+    max-width: 65%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2em 2em 4em;
 }
