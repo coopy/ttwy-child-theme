@@ -4,3 +4,10 @@
       width:225px;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .float-right: {
+        float: none;
+        padding: 0;
+    }
+}

@@ -38,6 +38,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3.7em;
 }
 
+.float-right {
+    float: right;
+    max-width: 400px;
+    padding: 0 0 15px 35px;
+}
+
 #mailchimp-footer {
     padding: 58px 0;
 }
