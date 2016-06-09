@@ -47,7 +47,7 @@ a, [data-expand] {
     font-size: 3.7em;
 }
 
-.float-right {
+.float-right, .post-entry img.float-right {
     float: right;
     max-width: 400px;
     padding: 0 0 15px 35px;
