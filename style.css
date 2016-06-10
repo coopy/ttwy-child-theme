@@ -18,6 +18,15 @@ h1, h2, h3, h4, h5, h6,
     text-transform: uppercase;
 }
 
+/* Fix issue with menu covering #anchor links */
+h2:before, h3:before, h4:before {
+  display: block;
+  content: " ";
+  margin-top: -57px;
+  height: 57px;
+  visibility: hidden;
+}
+
 a, [data-expand] {
     cursor: pointer;
 }
