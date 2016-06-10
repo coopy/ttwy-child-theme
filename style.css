@@ -40,6 +40,9 @@ a, [data-expand] {
     font-size: 15px;
 }
 
+.hero {
+    font-size: 1.2em;
+}
 
 .featured-area .feat-inner {
     max-width: 65%;
