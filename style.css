@@ -21,6 +21,10 @@ a, [data-expand] {
     cursor: pointer;
 }
 
+[data-expand-id] {
+    margin-bottom: 1em;
+}
+
 #main {
     width: 100%;
     float: left;
