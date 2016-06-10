@@ -53,6 +53,8 @@ a, [data-expand] {
 
 .float-right, .post-entry img.float-right {
     float: right;
+    /* Always clear the previous float, so everything stacks vertically */
+    clear: right;
     max-width: 400px;
     padding: 0 0 15px 35px;
 }
