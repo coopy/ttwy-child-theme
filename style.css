@@ -71,3 +71,23 @@ a, [data-expand] {
     text-transform: uppercase;
 }
 
+/* OVERRIDES */
+.sp-grid > li {
+    width:325px; /* narrower to fit 3 on laptop screen size */
+    display:inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+}
+
+    /* fullwidth */
+    #main.fullwidth .sp-grid > li {
+        width:325px; /* same width as in regular #main container */
+        margin-right:25px; /* same margin, too */
+    }
+    #main.fullwidth .sp-grid li:nth-of-type(2n+2) {
+        margin-right:25px; /* Don't reset margin */
+    }
+
+.sp-grid li:nth-of-type(2n+2) {
+    margin-right:25px; /* Don't reset margin */
+}
