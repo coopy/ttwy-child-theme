@@ -12,7 +12,8 @@ Template:       oleander
     src: url('./fonts/Witch-Baby-Regular.otf') format('opentype');
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.archive-box h1 {
     font-family: Witch-Baby-Regular, sans-serif;
     text-transform: uppercase;
 }
