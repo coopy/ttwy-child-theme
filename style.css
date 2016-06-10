@@ -68,6 +68,7 @@ a, [data-expand] {
 .post-entry hr,
 .entry-content hr {
     clear: none;
+    margin: 0 0 4em 0;
 }
 
 #mailchimp-footer {
