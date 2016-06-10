@@ -17,6 +17,15 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+a, [data-expand] {
+    cursor: pointer;
+}
+
+#main {
+    width: 100%;
+    float: left;
+}
+
 #top-search input, .feat-overlay p, .promo-overlay h4, .archive-box span, .subscribe-inner p, .post-entry blockquote p, .entry-content blockquote p, span.by, .comment-box, .widget-title,
 .author-content h5 .about-italic {
     font-family: Witch-Baby-Regular, sans-serif;
@@ -53,6 +62,3 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-a, [data-expand] {
-    cursor: pointer;
-}
