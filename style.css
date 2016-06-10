@@ -55,12 +55,19 @@ a, [data-expand] {
     font-size: 3.7em;
 }
 
-.float-right, .post-entry img.float-right {
+.float-right,
+.post-entry img.float-right,
+.post-img img.float-right {
     float: right;
     /* Always clear the previous float, so everything stacks vertically */
     clear: right;
     max-width: 400px;
     padding: 0 0 15px 35px;
+}
+
+.post-entry hr,
+.entry-content hr {
+    clear: none;
 }
 
 #mailchimp-footer {
