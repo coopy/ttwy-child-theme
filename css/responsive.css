@@ -6,8 +6,19 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .float-right: {
-        float: none;
-        padding: 0;
+    .float-right,
+    .post-entry img.float-right,
+    .post-img img.float-right {
+        max-width: 275px !important;
     }
 }
+
+@media only screen and (max-width: 479px) {
+    .float-right,
+    .post-entry img.float-right,
+    .post-img img.float-right {
+        padding: 0 !important;
+        float: none !important;
+    }
+}
+
