@@ -40,6 +40,16 @@ a, [data-expand] {
     float: left;
 }
 
+/* Set max-width on the main content .container (not the nav .container) */
+body > .container {
+    max-width: 768px;
+}
+
+/* The home page is designed to not have a max-width. */
+body.home > .container {
+    max-width: none;
+}
+
 #top-search input, .feat-overlay p, .promo-overlay h4, .archive-box span, .subscribe-inner p, .post-entry blockquote p, .entry-content blockquote p, span.by, .comment-box, .widget-title,
 .author-content h5 .about-italic {
     font-family: Witch-Baby-Regular, sans-serif;
